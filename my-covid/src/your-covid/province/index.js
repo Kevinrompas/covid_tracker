@@ -1,13 +1,16 @@
 import React from 'react'
+import ProvinceData from './ProvinceData'
 
-const province = ()=>{
+const Province = ()=>{
     return (
         <div>
-            <h1>
-                Province Data
-            </h1>
+           <h1>
+               Data Provinsi
+               <ProvinceData/>
+
+            </h1> 
         </div>
     )
 }
 
-export default province;
+export default Province;

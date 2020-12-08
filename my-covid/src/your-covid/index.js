@@ -1,5 +1,5 @@
-import world from './world'
-import local from './local'
-import province from './province'
+import World from './world'
+import Local from './local'
+import Province from './province'
 
-export {world, local, province}
+export {World, Local, Province}
